@@ -1,0 +1,72 @@
+.headerBox{
+    width: 100%;
+    height: auto;
+    background-color:rgba(45,49,54,1);
+    margin-bottom: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icon-lable-header{
+    max-height: 150px;
+    max-width: 200px;
+    margin-left: 15%;
+    align-self: flex-start;
+    margin-top: 1%; 
+}
+.contact-lable{
+    max-height: 150px;
+    max-width: 150px;
+    align-self: flex-start;
+    margin-left: 40%; 
+}
+.form-box1{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.form-box2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.input-text{
+    width: 100%;
+    height: 35px;
+    background-color: rgba(255,0,0,0);
+    color: rgba(215,215,215,1);
+    
+    border-radius: 2%;
+    border: 1px solid rgba(101,101,102,1);
+}
+.input-text.active,
+.input-text:hover,
+.input-text:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 1px solid rgba(190,57,59,1);
+}
+.comment-input{
+    height: 115px;
+}
+.write-buttom{
+    width: 100px;
+    height: 35px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    align-self: flex-end;
+    background-color: rgba(190,57,59,1);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.label{
+    color:white;
+    align-self: flex-start;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.box1{
+    align-self: flex-start;
+}

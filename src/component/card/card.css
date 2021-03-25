@@ -1,0 +1,31 @@
+.card-box {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.header {
+    width: 100%;
+    height: 20%;
+    /* background-color:rgba(233,238,243,1); */
+    background-color:rgba(75,89,108,1);
+    color: white;
+}
+.mail{
+    width: 100%;
+    height: 30%;
+    background-color:rgba(88,173,82,1);
+    
+}
+.comment{
+    width: 100%;
+    height: 50%;
+    background-color:rgba(88,173,82,1);
+    text-align: center;
+}
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
